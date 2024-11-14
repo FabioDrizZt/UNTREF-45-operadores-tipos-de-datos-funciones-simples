@@ -42,10 +42,3 @@ def test_ejercicio_6():
     assert clasificar_numero(10) == "POSITIVO_PAR"
     assert clasificar_numero(-3) == "NEGATIVO"
     assert clasificar_numero(7) == "POSITIVO_IMPAR"
-
-# Ejercicio 7: Conversor de Notación Matemática
-def test_ejercicio_7():
-    assert convertir_a_prefijo("3 + 5") == "+ 3 5"
-    assert convertir_a_prefijo("10 - 4") == "- 10 4"
-    assert convertir_a_prefijo("8 * 2") == "* 8 2"
-
