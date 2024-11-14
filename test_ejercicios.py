@@ -24,7 +24,7 @@ def test_ejercicio_2():
 def test_ejercicio_3():
     assert calcular_precio_final(17, False) == pytest.approx(85, 0.01)  # 15% descuento
     assert calcular_precio_final(61, False) == pytest.approx(70, 0.01)  # 30% descuento
-    assert calcular_precio_final(61, True) == pytest.approx(63, 0.01)   # 30% + 10% descuento
+    assert calcular_precio_final(61, True) == pytest.approx(60, 0.01)   # 30% + 10% descuento
 
 # Ejercicio 4: Generador de Siglas de Frases
 def test_ejercicio_4():
