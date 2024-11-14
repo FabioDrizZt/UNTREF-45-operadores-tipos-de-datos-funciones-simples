@@ -22,3 +22,32 @@ Estos ejercicios están diseñados para desafiar a estudiantes con experiencia e
 6. **Clasificador de Números**
    - Crear un programa que reciba números y los clasifique como positivos pares, positivos impares o negativos.
 
+# Instrucciones para Ejecutar Pruebas
+
+Este proyecto incluye pruebas automatizadas para verificar que cada ejercicio esté implementado correctamente. A continuación, te explicamos cómo configurar el entorno de pruebas y ejecutar los tests.
+
+## Requisitos
+
+Asegúrate de tener `pytest` instalado en tu entorno de Python. Puedes instalarlo usando el siguiente comando:
+
+```bash
+pip install pytest
+```
+
+## Ejecución de Pruebas
+1. Ubica el archivo de pruebas: Guarda el archivo test_ejercicios.py en el mismo directorio que los archivos de ejercicios (como ejercicio_1.py, ejercicio_2.py, etc.).
+
+2. Ejecuta las pruebas: En la terminal, navega al directorio del proyecto y ejecuta el siguiente comando:
+
+```bash
+pytest test_ejercicios.py
+```
+
+## Resultados de las pruebas:
+
+- Si todos los ejercicios están implementados correctamente, verás un mensaje de éxito para cada prueba.
+- En caso de errores, pytest te mostrará en qué pruebas falló, ayudándote a identificar qué ejercicios requieren ajustes.
+  
+## Notas Importantes
+- Asegúrate de que cada archivo de ejercicio tenga las funciones requeridas y que el nombre de las funciones coincida con los especificados en el archivo de prueba.
+- Los mensajes de error de pytest te ayudarán a depurar y mejorar el código.
