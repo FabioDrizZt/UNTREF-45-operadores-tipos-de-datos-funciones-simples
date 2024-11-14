@@ -5,7 +5,6 @@ from ejercicio_3 import calcular_precio_final
 from ejercicio_4 import generar_sigla
 from ejercicio_5 import verificar_adivinanza
 from ejercicio_6 import clasificar_numero
-from ejercicio_7 import convertir_a_prefijo
 
 # Ejercicio 1: Simulador de Conversor de Unidades
 def test_ejercicio_1():
