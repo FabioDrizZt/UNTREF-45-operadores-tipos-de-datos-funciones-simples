@@ -1,5 +1,4 @@
-
-# Ejercicios de Python - Clase 1
+# Ejercicios de Python - Clase 2
 
 Estos ejercicios están diseñados para desafiar a estudiantes con experiencia en otros lenguajes a aplicar conceptos de Python, incluyendo variables, constantes, operadores, condicionales y funciones.
 
